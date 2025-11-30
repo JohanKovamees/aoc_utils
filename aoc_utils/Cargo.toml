@@ -1,0 +1,10 @@
+[package]
+name = "aoc_utils"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+itertools = { workspace = true }
+anyhow = { workspace = true }
+thiserror = "2.0.17"
+priority-queue = "2.7.0"
